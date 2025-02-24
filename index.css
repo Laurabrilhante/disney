@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+main h1 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-size: 1.1em;
+    color: #999;
+    text-align: left;
+}
+main h2{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-size: 1.1em;
+    color: #999;
+    margin-top: 5%;
+}
+main p1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 1.1em;
+    color: #999;
+    margin-top: 5%;
+}
+main p2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 1.1em;
+    color: #999;
+    margin-top: 5%;
+}
+body{
+    background-color: rgb(2, 2, 77);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+#bloco{
+    padding: 8px;
+}
+#subt{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+}
+.inpt{
+    width: 80%;
+    height: 60px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    box-shadow: 1px 1px 3px #33333344;
+    margin-top: 5%;
+    text-indent: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+#email{
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 8px;
+    background-position-y: center;
+    background-color: #cfcfcf;
+    border-radius: 0;
+    width: 80%;
+
+}
+#bt-login{
+    text-indent: 0 !important;
+    background: black!important;
+    color: #ffffff;
+    width: 80%;
+}
+.bt-login{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#bt-Disney{
+    background-image: url('../img/disney-plus-logo.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-abc{
+    background-image: url('../img/abc-broadcast-logo.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-espn{
+    background-image: url('../img/png-transparent-espn-logo-icon-thumbnail.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-marvel{
+    background-image: url('../img/marvel.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-starwars{
+    background-image: url('../img/hd-white-star-wars-logo-png-701751694787021te08lp5kwd.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-hulu{
+    background-image: url('../img/hulu.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-national-geographic{
+    background-image: url('../img/png-transparent-national-geographic-television-channel-logo-others-television-text-rectangle.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+#bt-star{
+    background-image: url('../img/star-plus.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
